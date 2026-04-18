@@ -3,11 +3,9 @@
 int main()
 {
     int c;
-    printf("%d", EOF);
 
     while ((c = getchar()) != EOF){
         putchar(c);
-        printf("%d", EOF);
     }
-    printf("%d", EOF);
+    printf("%d\n", EOF);
 }
