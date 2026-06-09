@@ -8,5 +8,5 @@ int main()
     while ((c = getchar()) != EOF)
         if (c == '\n' | c == ' ' | c == '\t')
             ++btnl;
-    printf("%d", btnl);
+    printf("%d\n", btnl);
 }
